@@ -1,0 +1,208 @@
+@media screen and (min-width: 390px) and (max-width: 1023px){
+    body {
+        background-image: url('/css/img/image\ 6\ \(1\).png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .mobile {
+        display: block;
+    }
+    .mobile1 {
+        display: none;
+    }
+    .desktop_element {
+        display: none;
+    }
+    .m-menu {
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        width: 35px;
+        height: 35px;
+    }
+    h1 {
+        font-weight: bolder;
+    }
+    h2 {
+        font-weight: lighter;
+    }
+    * {
+        margin-bottom: 0;
+    }
+    .wrapper {
+        width: 100%;
+        margin: auto;
+    }
+    .box {
+        max-width: 834px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 100%;
+    }
+    .header .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        width: 100%;
+        background-color: #11B9AF;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+        z-index: 1;
+    }
+    .h-logo {
+        width: 110px;
+        height: 20px;
+    }
+    .box .menu {
+        display: flex;
+        list-style: none;
+        font-size: 15px;
+        justify-content: end;
+        line-height: 50px;
+    }
+    .box span {
+        margin-right: 78px;
+    }
+    .box .menu li {
+        margin-right: 20px;
+    }
+    .box .menu a {
+        text-decoration: none;
+        color: white;
+    }
+    .box .a1 {
+        position: absolute;
+        top: 15px;
+        left: 17px;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .under-header {
+        background-image: url('img/image\ 1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 190px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    .under-header h1{
+        font-size: 20px;
+    }
+    .under-header h2{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    .under-header p{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    .under-header .logo {
+        margin-top: 23px;
+        width: 275px;
+    }
+    .bottle_1{
+        position: absolute;
+        top: 120px;
+        left: -165px;
+        display: none;
+    }
+    .bottle_2{
+        width: 200px;
+        position: absolute;
+        top: -50px;
+        right: 0px;
+    }
+
+    .content{
+        width: 100%;
+        color: white;
+        margin-top: 25px;
+    }
+    .content h1 {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .content p {
+        font-size: 15px;
+        font-weight: lighter;
+        width: 219px;
+    }
+    .block_1 {
+        position: relative;
+        background-image: url('/css/img/image\ 3.png');
+        background-size: cover;
+        width: 100%;
+        height: 390px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    .block_1 h1 {
+        position: absolute;
+        top: 40px;
+        left: 25px;
+    }
+    .block_1 p {
+        position: absolute;
+        top: 108px;
+        left: 25px;
+        width: 400px;
+    }
+    .block_1 img {
+        float: right;
+        width: 390px;
+    }
+    .block_2 {
+        position: relative;
+        background-image: url('/css/img/image\ 4.png');
+        background-size: cover;
+        width: 100%;
+        height: 390px;
+        text-align: right;
+    }
+    .block_2 h1 {
+        position: absolute;
+        top: 40px;
+        right: 25px;
+    }
+    .block_2 p {
+        position: absolute;
+        top: 108px;
+        right: 25px;
+        width: 400px;
+    }
+    .block_2 img {
+        float: left;
+        width: 350px;
+    }
+    .f-center {
+        height: 120px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_logo {
+        width: 440px;
+    }
+    .footer {
+        width: 100%;
+        height: 30px;
+        background-color: #11B9AF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
