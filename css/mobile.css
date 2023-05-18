@@ -1,6 +1,6 @@
 @media screen and (max-width: 390px){
     body {
-        background-image: url('/css/img/image\ 6\ \(1\).png');
+        background-image: url('img/image\ 6\ \(1\).png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -134,7 +134,7 @@
     }
     .block_1 {
         position: relative;
-        background-image: url('/css/img/image\ 3.png');
+        background-image: url('img/image\ 3.png');
         background-size: 250%;
         background-position: -100px;
         width: 100%;
@@ -162,7 +162,7 @@
     }
     .block_2 {
         position: relative;
-        background-image: url('/css/img/image\ 4.png');
+        background-image: url('img/image\ 4.png');
         background-size: 250%;
         background-position: -200px;
         width: 100%;
